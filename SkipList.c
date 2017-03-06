@@ -47,7 +47,9 @@ SKIPLIST *create_skip_list()
         head->forward[i] = NULL;
     }
 
+    srand(time(0));
 
+    return list;
 }
 
 
